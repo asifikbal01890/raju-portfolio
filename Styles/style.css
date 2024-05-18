@@ -65,6 +65,16 @@ a {
     width: 585px;
     margin-left: 30px;
 }
+h3{
+    font-size: 28px;
+}
+h4{
+    margin-block: 0px;
+}
+p{
+    color: #757575;
+    margin-block: 10px;
+}
 
 .btn-secondary {
     background-color: transparent;
@@ -91,4 +101,20 @@ a {
 }
 .fa-solid {
     margin-right: 8px;
+}
+/* main section css */
+main{
+    margin-top: 100px;
+    width: 1140px;
+    /* width: 80%; */
+    margin-inline: auto;
+}
+.about-me{
+    background-color: #FFF8F3;
+    padding: 150px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
 }
