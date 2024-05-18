@@ -65,13 +65,16 @@ a {
     width: 585px;
     margin-left: 30px;
 }
-h3{
+
+h3 {
     font-size: 28px;
 }
-h4{
+
+h4 {
     margin-block: 0px;
 }
-p{
+
+p {
     color: #757575;
     margin-block: 10px;
 }
@@ -99,41 +102,64 @@ p{
     margin-left: 230px;
     margin-bottom: -4px;
 }
+
 .fa-solid {
     margin-right: 8px;
 }
+
 /* main section css */
-main{
+main {
     margin-top: 100px;
     width: 1140px;
     /* width: 80%; */
     margin-inline: auto;
 }
-.about-me{
+
+.about-me {
     background-color: #FFF8F3;
     padding: 150px;
     text-align: center;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
 }
-.card-div{
+
+.card-div {
     display: flex;
     gap: 30px;
     margin-top: 40px;
-    margin-bottom: 100px;
-    
+    /* margin-bottom: 100px; */
+
 }
-.card{
+
+.card {
     padding: 30px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.057);
     text-align: left;
     border-radius: 5px;
 }
-.card h4{
+
+.card h4 {
     margin-block: 25px;
 }
-.card p{
+
+.card p {
     line-height: 1.8;
+}
+
+.flex {
+    text-align: start;
+    display: flex;
+    gap: 30px;
+}
+
+.flex h4 {
+    font-size: 24px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #757575;
+    margin-top: 25px;
 }
