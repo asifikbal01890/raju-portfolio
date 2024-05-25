@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1140px;
+    max-width: 1140px;
     margin-inline: auto;
     padding-top: 30px;
 }
@@ -94,7 +94,7 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
-    width: 736px;
+    max-width: 736px;
 }
 
 .hardy-img {
@@ -110,7 +110,7 @@ p {
 /* main section css */
 main {
     margin-top: 100px;
-    width: 1140px;
+    max-width: 1140px;
     /* width: 80%; */
     margin-inline: auto;
 }
@@ -120,9 +120,13 @@ main {
     padding: 150px;
     text-align: center;
 }
-
+.about-top{
+    margin-top: 80px; 
+    padding-inline: 160px;
+}
 .info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -192,4 +196,45 @@ textarea{
 .btn-submit{
     padding: 16px 40px;
     font-size: 17px;
+}
+.d-none{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    main{
+        margin-inline: 16px;
+    }
+    .about-me{
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+    .banner, .card-div, .flex{
+        flex-direction: column;
+    }
+    .about-top{
+        padding-inline: 0px;
+    }
+    .devloper-img{
+        display: none;
+    }
+    .hardy{
+        background-image: none;
+    }
+    .hardy-img {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: -4px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-middle {
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0px;
+       
+        margin-bottom: 60px;
+    }
+    
 }
